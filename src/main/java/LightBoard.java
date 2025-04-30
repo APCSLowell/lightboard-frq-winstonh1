@@ -14,7 +14,7 @@ public class LightBoard
     for(int r = 0; r < numRows; r++){
       for(int c = 0; c < numCols; c++){
         double x = Math.random();
-        light[r][c] = x < 0.4;
+        lights[r][c] = x < 0.4;
       }
     }
   }
